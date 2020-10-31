@@ -1,0 +1,97 @@
+body {
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: white;
+}
+.container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.text-box{
+    width: 40%;
+    padding: 10px;
+}
+.form-box{
+    width: 40%;
+    margin: 10px;
+}
+
+.top-box{
+    width: 390px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; }
+
+.attribution a {
+    color: hsl(228, 45%, 44%); }
+
+
+form {
+    width: 350px;
+    background: #fff;
+    padding: 30px 30px 30px;
+    border: 1px solid #ccc;
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.row {
+    padding-bottom: 15px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 70%;
+    text-align: end;
+    font-style: italic;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: hsl(154, 59%, 51%);
+    border-color: #016BC1;
+    box-shadow: 0 3px 0 hsl(154, 59%, 51%);
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #0165b6;
+}
